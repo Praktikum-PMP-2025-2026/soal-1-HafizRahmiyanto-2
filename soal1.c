@@ -9,9 +9,9 @@ typedef struct data{
 }data;
 
 void input(data* list, int N){
-    char bufferNama[50];
+    char bufferNama[20];
     int bufferTahun=0;
-    char bufferKategori[6];
+    char bufferKategori[20];
     int bufferNilai=0;
 
     for(int i=0; i<N; i++){
