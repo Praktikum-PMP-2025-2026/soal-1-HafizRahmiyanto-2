@@ -40,7 +40,7 @@ void urutkan(data* m, int N) {
                     tukar = 1;
                 } 
                 else if (m[j].tahun == m[j+1].tahun) {
-                    if (m[j].nilai < m[j+1].nilai) {
+                    if (m[j].nilai > m[j+1].nilai) {
                         tukar = 1;
                     }
                     else if (strcmp(m[j].nama, m[j+1].nama) > 0){
